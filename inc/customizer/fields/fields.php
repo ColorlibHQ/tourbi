@@ -14,10 +14,10 @@
  ***********************************/
 
 // Header booking button field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_btn',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Header button show/hide', 'tourbi' ),
         'section'     => 'tourbi_header_section',
         'default'     => true
@@ -25,7 +25,7 @@ Epsilon_Customizer::add_field(
 );
 
 // Booking button label
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'header_btn_label',
     array(
         'type'              => 'text',
@@ -37,7 +37,7 @@ Epsilon_Customizer::add_field(
 );
 
 // Booking button url
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'booking_btn_url',
     array(
         'type'              => 'text',
@@ -49,10 +49,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header button background color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_btn_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Button BG Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -61,10 +61,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header button text color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_btn_txt_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Button Text Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -73,10 +73,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header button hover background color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_btn_hvr_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Button Hover BG Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -85,10 +85,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header button hover text color
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_btn_hvr_txt_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header Button Hover Text Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -97,10 +97,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header style section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'header_style_sec_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Header Style Section', 'tourbi' ),
         'section'     => 'tourbi_header_section',
 
@@ -108,10 +108,10 @@ Epsilon_Customizer::add_field(
 );
  
 // Header background color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Sticky Header BG Color', 'tourbi' ),
         'description' => esc_html__( 'Select the header background color.', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
@@ -121,10 +121,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header nav menu color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_menu_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -133,10 +133,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header nav menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_menu_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Header menu hover color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -145,10 +145,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header dropdown menu bg color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_drop_menu_bg_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu bg color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -157,10 +157,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header dropdown menu color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_drop_menu_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -169,10 +169,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Header dropdown menu hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_header_drop_menu_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Dropdown menu hover color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_header_section',
@@ -186,7 +186,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
  
 // Post excerpt length field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_excerpt_length',
     array(
         'type'        => 'text',
@@ -199,28 +199,28 @@ Epsilon_Customizer::add_field(
 );
 
 // Blog single page social share icon
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_blog_meta',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog page post meta show/hide', 'tourbi' ),
         'section'     => 'tourbi_blog_section',
         'default'     => true
     )
 );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_like_btn',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog Single Page Like Button show/hide', 'tourbi' ),
         'section'     => 'tourbi_blog_section',
         'default'     => true
     )
 );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_blog_share',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Blog Single Page Share show/hide', 'tourbi' ),
         'section'     => 'tourbi_blog_section',
         'default'     => true
@@ -233,7 +233,7 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // 404 text #1 field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_fof_titleone',
     array(
         'type'              => 'text',
@@ -244,7 +244,7 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #2 field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_fof_titletwo',
     array(
         'type'              => 'text',
@@ -255,10 +255,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #1 color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_fof_textone_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Text #1 Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_fof_section',
@@ -266,10 +266,10 @@ Epsilon_Customizer::add_field(
     )
 );
 // 404 text #2 color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_fof_texttwo_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( '404 Text #2 Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_fof_section',
@@ -282,10 +282,10 @@ Epsilon_Customizer::add_field(
  ***********************************/
 
 // Footer Widget section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'footer_widget_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Footer Widget Section', 'tourbi' ),
         'section'     => 'tourbi_footer_section',
 
@@ -293,10 +293,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget toggle field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_widget_toggle',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Footer widget show/hide', 'tourbi' ),
         'description' => esc_html__( 'Toggle to display footer widgets.', 'tourbi' ),
         'section'     => 'tourbi_footer_section',
@@ -305,10 +305,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer Copyright section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_copyright_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Footer Copyright Section', 'tourbi' ),
         'section'     => 'tourbi_footer_section',
         'default'     => true,
@@ -320,10 +320,10 @@ Epsilon_Customizer::add_field(
 // Copy right text
 $url = 'https://colorlib.com/';
 $copyText = sprintf( __( 'Theme by %s colorlib %s Copyright &copy; %s  |  All rights reserved.', 'tourbi' ), '<a target="_blank" href="' . esc_url( $url ) . '">', '</a>', date( 'Y' ) );
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_copyright_text',
     array(
-        'type'        => 'epsilon-text-editor',
+        'type'        => 'colorlib-text-editor',
         'label'       => esc_html__( 'Footer copyright text', 'tourbi' ),
         'section'     => 'tourbi_footer_section',
         'default'     => wp_kses_post( $copyText ),
@@ -331,10 +331,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Social Profile section
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'social_pro_separator',
     array(
-        'type'        => 'epsilon-separator',
+        'type'        => 'colorlib-separator',
         'label'       => esc_html__( 'Social Profile Section', 'tourbi' ),
         'section'     => 'tourbi_footer_section',
         'default'     => true,
@@ -343,10 +343,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Social Profile Show/Hide
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_social_profile_toggle',
     array(
-        'type'        => 'epsilon-toggle',
+        'type'        => 'colorlib-toggle',
         'label'       => esc_html__( 'Social Profile Show/Hide', 'tourbi' ),
         'section'     => 'tourbi_footer_section',
         'default'     => true,
@@ -354,10 +354,10 @@ Epsilon_Customizer::add_field(
 );
 
 //Social Profile links
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
 	'tourbi_header_social',
 	array(
-		'type'         => 'epsilon-repeater',
+		'type'         => 'colorlib-repeater',
 		'section'      => 'tourbi_footer_section',
 		'label'        => esc_html__( 'Social Profile Links', 'tourbi' ),
         'button_label' => esc_html__( 'Add new social link', 'tourbi' ),
@@ -402,7 +402,7 @@ Epsilon_Customizer::add_field(
 			),
 			'social_icon'        => array(
 				'label'   => esc_html__( 'Icon', 'tourbi' ),
-				'type'    => 'epsilon-icon-picker',
+				'type'    => 'colorlib-icon-picker',
 				'default' => 'fa fa-twitter',
 			),
 			
@@ -411,10 +411,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget text color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_widget_text_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Text Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_footer_section',
@@ -423,10 +423,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget title color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_widget_title_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Widget Title Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_footer_section',
@@ -435,10 +435,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget anchor color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_widget_anchor_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Anchor Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_footer_section',
@@ -447,10 +447,10 @@ Epsilon_Customizer::add_field(
 );
 
 // Footer widget anchor hover color field
-Epsilon_Customizer::add_field(
+Colorlib_Customizer::add_field(
     'tourbi_footer_widget_anchor_hover_color',
     array(
-        'type'        => 'epsilon-color-picker',
+        'type'        => 'colorlib-color-picker',
         'label'       => esc_html__( 'Footer Anchor Hover Color', 'tourbi' ),
         'sanitize_callback' => 'sanitize_text_field',
         'section'     => 'tourbi_footer_section',
